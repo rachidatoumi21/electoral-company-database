@@ -150,23 +150,25 @@ Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion 
 **Captures d’écran**
 
 Vue d’ensemble de l’application
-<img src="screenshots/application-complete.png" alt="Vue d’ensemble de l’application" width="900">
+<img src="figures/image.png" alt="Vue d’ensemble de l’application" width="900">
 
-**Gestion des candidats**
-<img src="screenshots/candidats.png" alt="Gestion des candidats" width="900">
+### Gestion des candidats
+<img src="figures/image1.png" alt="Gestion des candidats" width="900">
 
 ### Gestion des villages
-<img src="screenshots/villages.png" alt="Gestion des villages" width="900">
+<img src="figures/image2.png" alt="Gestion des villages" width="900">
 
 ### Actions et décisions d’un candidat
-<img src="screenshots/actions.png" alt="Actions et décisions d’un candidat" width="700">
+<img src="figures/image3.png" alt="Actions et décisions d’un candidat" width="700">
 
 ### Visites planifiées d’un candidat
-<img src="screenshots/visites.png" alt="Visites planifiées d’un candidat" width="700">
+<img src="figures/image4.png" alt="Visites planifiées d’un candidat" width="700">
 
 ### Total des dépenses de voyage
-<img src="screenshots/depenses.png" alt="Total des dépenses de voyage" width="600">
+<img src="figures/image5.png" alt="Total des dépenses de voyage" width="600">
 
+### Impact financier d’une campagne
+<img src="figures/image6.png" alt="Impact financier d’une campagne" width="600">
 ### Impact financier d’une campagne
 <img src="screenshots/impact-financier.png" alt="Impact financier d’une campagne" width="600">
 
