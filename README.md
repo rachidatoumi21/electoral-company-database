@@ -1,16 +1,32 @@
-Readme Projet Campagne Electorale
-Gestion d'une campagne électorale
-Aperçu
+
+# Gestion d'une campagne électorale
+## Aperçu
 
 Ce projet présente une application de gestion d’une campagne électorale appuyée par une base de données relationnelle et une interface Java. L’objectif est de centraliser les informations sur les candidats, les villages, les visites, les actions et décisions, les voyages, les frais, ainsi que les projets de loi afin de faciliter le suivi opérationnel et l’analyse de campagne. Le rapport du projet explique que la solution vise à organiser, capter et analyser les données essentielles au succès d’une campagne électorale.
 
 L’application permet notamment de gérer les candidats et les villages, d’afficher les actions et décisions d’un candidat, de consulter les visites planifiées, de calculer les dépenses de voyage d’un candidat et d’estimer l’impact financier total des projets de loi d’une campagne. Ces fonctionnalités sont visibles dans les captures de l’application et correspondent aux requêtes SQL décrites dans le rapport et dans le script de base de données.
 
-Contexte académique
+## Contexte académique
 
-Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Université de Montréal, sous la supervision de la professeure Jihene Rezgui et du démonstrateur Enric Soldevila.
+Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Université de Montréal.
+## Auteurs
 
-Objectifs du projet
+- Rachida Toumi
+- Vi Phung
+-
+
+---
+
+## Technologies utilisées
+
+- **Java**
+- **SQL Server / T-SQL**
+- **JDBC**
+- **Interface graphique Java**
+
+---
+
+## Objectifs du projet
 
 Le système a été conçu pour répondre à plusieurs besoins d’une campagne électorale :
 
@@ -23,19 +39,14 @@ enregistrer les voyages et les frais associés.
 
 L’objectif final est de fournir une vue d’ensemble structurée de la campagne pour soutenir la prise de décision et la stratégie politique.
 
-Technologies utilisées
-Java pour l’interface de l’application
-SQL Server / T-SQL pour la base de données, les requêtes, les procédures stockées, les triggers et le curseur ; le script utilise notamment GO, IDENTITY, CREATE OR ALTER, RAISERROR et DATEPART, ce qui correspond à T-SQL.
-Interface graphique Java pour les opérations CRUD et les consultations analytiques, comme montré dans les captures de fonctionnement aux pages finales du rapport.
-Modélisation de la base de données
-
 Le modèle relationnel présenté dans le rapport comprend les entités principales suivantes : Campagne, Candidat, Village, Action, Theme, Visite, ProjetLoi, Loi, LoiModifie, Voyage, VoyageParCandidat et Frais.
 
 Le script SQL implémente concrètement ces tables avec des clés primaires et des clés étrangères. Il crée par exemple les tables Candidat, Campagne, Village, Theme, ActionDecision, Visites, Loi, ProjetDeLoi, LoiModifie, Voyage, VoyageParCandidat et Frais.
 
 Le rapport indique aussi que le schéma respecte les formes normales 1FN, 2FN et 3FN, et conclut que les relations sont en BCNF.
+---
 
-Fonctionnalités principales
+## Fonctionnalités principales
 Gestion des candidats
 
 L’application permet d’afficher et de gérer les données des candidats, notamment l’identifiant, le prénom, le nom, la date de naissance et le parti politique. La capture dédiée montre également les actions CRUD principales : insertion, modification, suppression et recherche par identifiant. Ces attributs correspondent à la table Candidat du script SQL.
