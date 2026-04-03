@@ -1,12 +1,12 @@
 
 # Gestion d'une campagne électorale
-## Aperçu
+### Aperçu
 
 Ce projet présente une application de gestion d’une campagne électorale appuyée par une base de données relationnelle et une interface Java. L’objectif est de centraliser les informations sur les candidats, les villages, les visites, les actions et décisions, les voyages, les frais, ainsi que les projets de loi afin de faciliter le suivi opérationnel et l’analyse de campagne. Le rapport du projet explique que la solution vise à organiser, capter et analyser les données essentielles au succès d’une campagne électorale.
 
 L’application permet notamment de gérer les candidats et les villages, d’afficher les actions et décisions d’un candidat, de consulter les visites planifiées, de calculer les dépenses de voyage d’un candidat et d’estimer l’impact financier total des projets de loi d’une campagne. Ces fonctionnalités sont visibles dans les captures de l’application et correspondent aux requêtes SQL décrites dans le rapport et dans le script de base de données.
 
-## Contexte académique
+### Contexte académique
 
 Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Université de Montréal.
 
@@ -18,7 +18,7 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 
 ---
 
-## Technologies utilisées
+### Technologies utilisées
 
 - Java
 - SQL Server / T-SQL
@@ -46,7 +46,7 @@ Le script SQL implémente concrètement ces tables avec des clés primaires et d
 
 ---
 
-## Fonctionnalités principales
+### Fonctionnalités principales
 Gestion des candidats
 
 L’application permet d’afficher et de gérer les données des candidats, notamment l’identifiant, le prénom, le nom, la date de naissance et le parti politique. La capture dédiée montre également les actions CRUD principales : insertion, modification, suppression et recherche par identifiant. Ces attributs correspondent à la table Candidat du script SQL.
