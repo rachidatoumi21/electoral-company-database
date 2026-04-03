@@ -19,10 +19,10 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 
 ## Technologies utilisées
 
-- **Java**
-- **SQL Server / T-SQL**
-- **JDBC**
-- **Interface graphique Java**
+- Java
+- SQL Server / T-SQL
+- JDBC
+- Interface graphique Java
 
 ---
 
