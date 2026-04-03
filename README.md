@@ -147,29 +147,28 @@ Ouvrir le projet Java et adapter les paramètres de connexion à la base de donn
 
 Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion et aux requêtes affichées dans les captures.
 
-**Captures d’écran**
-Vue d’ensemble de l’application
-<p align="center">
-  <img src="./screenshots/application-complete.png" alt="Vue d’ensemble de l’application" width="900">
-</p>
+## Captures d’écran
+
+### Vue d’ensemble de l’application
+<img src="screenshots/application-complete.png" alt="Vue d’ensemble de l’application" width="900">
 
 ### Gestion des candidats
-
-<p align="center">
-  <img src="./screenshots/candidats.png" alt="Gestion des candidats" width="900">
-</p>
+<img src="screenshots/candidats.png" alt="Gestion des candidats" width="900">
 
 ### Gestion des villages
-
-<p align="center">
-  <img src="./screenshots/villages.png" alt="Gestion des villages" width="900">
-</p>
+<img src="screenshots/villages.png" alt="Gestion des villages" width="900">
 
 ### Actions et décisions d’un candidat
+<img src="screenshots/actions.png" alt="Actions et décisions d’un candidat" width="700">
 
-<p align="center">
-  <img src="./screenshots/actions.png" alt="Actions et décisions d’un candidat" width="700">
-</p>
+### Visites planifiées d’un candidat
+<img src="screenshots/visites.png" alt="Visites planifiées d’un candidat" width="700">
+
+### Total des dépenses de voyage
+<img src="screenshots/depenses.png" alt="Total des dépenses de voyage" width="600">
+
+### Impact financier d’une campagne
+<img src="screenshots/impact-financier.png" alt="Impact financier d’une campagne" width="600">
 
 ### Visites planifiées d’un candidat
 
