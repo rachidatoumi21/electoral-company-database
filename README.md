@@ -152,43 +152,25 @@ Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion 
 Vue d’ensemble de l’application
 <img src="figures/image.png" alt="Vue d’ensemble de l’application" width="900">
 
-### Gestion des candidats
+**Gestion des candidats**
 <img src="figures/image1.png" alt="Gestion des candidats" width="900">
 
-### Gestion des villages
+**Gestion des villages**
 <img src="figures/image2.png" alt="Gestion des villages" width="900">
 
-### Actions et décisions d’un candidat
+**Actions et décisions d’un candidat**
 <img src="figures/image3.png" alt="Actions et décisions d’un candidat" width="700">
 
-### Visites planifiées d’un candidat
+**Visites planifiées d’un candidat**
 <img src="figures/image4.png" alt="Visites planifiées d’un candidat" width="700">
 
-### Total des dépenses de voyage
+**Total des dépenses de voyage**
 <img src="figures/image5.png" alt="Total des dépenses de voyage" width="600">
 
-### Impact financier d’une campagne
+**Impact financier d’une campagne**
 <img src="figures/image6.png" alt="Impact financier d’une campagne" width="600">
-### Impact financier d’une campagne
-<img src="screenshots/impact-financier.png" alt="Impact financier d’une campagne" width="600">
 
-### Visites planifiées d’un candidat
-
-<p align="center">
-  <img src="./screenshots/visites.png" alt="Visites planifiées d’un candidat" width="700">
-</p>
-
-### Total des dépenses de voyage
-
-<p align="center">
-  <img src="./screenshots/depenses.png" alt="Total des dépenses de voyage" width="600">
-</p>
-
-### Impact financier d’une campagne
-
-<p align="center">
-  <img src="./screenshots/impact-financier.png" alt="Impact financier d’une campagne" width="600">
-</p>
+---
 
 **Points forts du projet**
 modélisation d’une base de données relationnelle complète pour un cas réaliste ;
