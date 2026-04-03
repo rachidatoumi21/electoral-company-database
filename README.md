@@ -9,6 +9,7 @@ L’application permet notamment de gérer les candidats et les villages, d’af
 ## Contexte académique
 
 Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Université de Montréal.
+
 ## Auteurs
 
 - Rachida Toumi
@@ -30,12 +31,12 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 
 Le système a été conçu pour répondre à plusieurs besoins d’une campagne électorale :
 
-gérer les informations détaillées des candidats ;
-suivre les campagnes électorales ;
-planifier les visites de villages et villes ;
-suivre les actions et décisions des candidats ;
-gérer les projets de loi et leurs impacts financiers ;
-enregistrer les voyages et les frais associés.
+- gérer les informations détaillées des candidats ;
+- suivre les campagnes électorales ;
+- planifier les visites de villages et villes ;
+- suivre les actions et décisions des candidats ;
+- gérer les projets de loi et leurs impacts financiers ;
+- enregistrer les voyages et les frais associés.
 
 L’objectif final est de fournir une vue d’ensemble structurée de la campagne pour soutenir la prise de décision et la stratégie politique.
 
