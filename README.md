@@ -47,42 +47,48 @@ Le script SQL implémente concrètement ces tables avec des clés primaires et d
 ---
 
 ### Fonctionnalités principales
-Gestion des candidats
 
-L’application permet d’afficher et de gérer les données des candidats, notamment l’identifiant, le prénom, le nom, la date de naissance et le parti politique. La capture dédiée montre également les actions CRUD principales : insertion, modification, suppression et recherche par identifiant. Ces attributs correspondent à la table Candidat du script SQL.
+### 1. Gestion des candidats
+L’application permet :
+- d’afficher les informations des candidats
+- d’insérer un candidat
+- de modifier un candidat
+- de supprimer un candidat
+- de rechercher un candidat par identifiant
+  
+   La capture dédiée montre également les actions CRUD principales : insertion, modification, suppression et recherche par identifiant. Ces attributs correspondent à la table Candidat du script SQL.
 
-![Gestion des candidats](screenshots/candidats.png)
-Gestion des villages
 
-L’application permet aussi de consulter et gérer les villages avec leur identifiant, leur nom et leur région, ce qui reflète directement la structure de la table Village. La capture montre les opérations d’insertion, de modification, de suppression et de recherche.
+### 2. Gestion des villages
+L’application permet :
+- d’afficher les villages
+- d’insérer un village
+- de modifier un village
+- de supprimer un village
+- de rechercher un village par identifiant
 
-![Gestion des villages](screenshots/villages.png)
-Affichage des actions et décisions d’un candidat
+### 3. Affichage des actions et décisions d’un candidat
+L’utilisateur peut saisir l’identifiant d’un candidat afin d’afficher :
+- la description des actions
+- la date des actions et décisions associées
 
-Une fonctionnalité permet d’afficher les actions et décisions récentes d’un candidat à partir de son identifiant. Le rapport décrit une requête qui retourne la description et la date des actions, triées par date décroissante, et le script SQL contient cette requête.
+### 4. Affichage des visites planifiées par un candidat
+L’application permet d’afficher :
+- la date de visite
+- le nom du village
+- la région
 
-![Actions et décisions](screenshots/actions.png)
-Affichage des visites planifiées
+### 5. Calcul du total des dépenses des voyages d’un candidat
+L’utilisateur peut calculer le total des frais associés aux voyages d’un candidat.
 
-L’application affiche les visites planifiées par un candidat en montrant la date de visite, le nom du village et la région. Cette fonctionnalité correspond à la requête SELECT v.Date_visite, vi.Nom, vi.Region ... WHERE v.CandidatID = 1.
+### 6. Estimation de l’impact financier total des projets de loi d’une campagne
+L’application permet d’estimer l’impact financier total des projets de loi liés à une campagne donnée.
 
-![Visites planifiées](screenshots/visites.png)
-Calcul du total des dépenses de voyage
+### 7. Rapport sur le nombre de visites
+Une section de l’interface permet également d’afficher le nombre de visites effectuées dans un village par un candidat.
 
-L’application permet de calculer la somme des frais associés aux voyages d’un candidat. Le rapport et le script montrent une requête utilisant SUM(f.Montant) avec une jointure entre Frais et VoyageParCandidat.
+---
 
-![Total des dépenses](screenshots/depenses.png)
-Estimation de l’impact financier des projets de loi
-
-L’application peut aussi estimer l’impact financier total des projets de loi d’une campagne donnée. Cette fonctionnalité repose sur une somme de ImpactFinancier dans la table ProjetDeLoi pour un CampagneID donné. fileciteturn0file0L112-L113
-
-![Impact financier](screenshots/impact-financier.png)
-Rapport sur le nombre de visites par village et par candidat
-
-L’interface contient aussi un bloc d’affichage du nombre de visites à un village par un candidat. Cette idée s’inscrit dans les requêtes du rapport qui calculent le nombre de visites par village et, dans les requêtes complexes, le nombre de visites par candidat et par région.
-
-![Nombre de visites](screenshots/nombre-visites.png)
-Procédures stockées, triggers et curseur
 
 Le projet ne se limite pas aux tables et requêtes de base. Le script T-SQL inclut aussi des mécanismes avancés :
 
@@ -96,8 +102,8 @@ Jeu de données de démonstration
 
 Le script SQL insère des données d’exemple pour les candidats, villages, campagnes, thèmes, actions et décisions, visites, lois, projets de loi, voyages et frais. Cela permet de tester directement l’application et les requêtes sans devoir remplir la base manuellement.
 
-Structure suggérée du repository
-.
+## Structure suggérée du repository
+```text
 ├── electoral_db.sql
 ├── T-SQL.sql
 ├── Java-applicationSQL/
@@ -113,7 +119,10 @@ Structure suggérée du repository
 │   ├── depenses.png
 │   └── impact-financier.png
 └── README.md
-Installation et exécution
+```
+
+### Installation et exécution
+
 1. Créer la base de données
 
 Exécuter le script principal SQL dans SQL Server pour créer la base, les tables, les relations et les données d’exemple.
@@ -156,7 +165,8 @@ implémentation de tables liées par des clés étrangères ;
 présence de requêtes simples et complexes pour l’analyse ;
 intégration d’une interface Java avec fonctionnalités CRUD ;
 utilisation de procédures stockées, triggers et curseur pour enrichir la logique de gestion. fileciteturn0file0L29-L57
-Limites et améliorations possibles
+
+### Limites et améliorations possibles
 
 Les captures montrent une application fonctionnelle et claire, mais plusieurs améliorations peuvent être envisagées :
 
