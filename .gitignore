@@ -1,0 +1,36 @@
+# IntelliJ / JetBrains
+.idea/
+*.iml
+
+# Fichiers compilés Java
+*.class
+
+# Dossiers de build
+out/
+build/
+target/
+
+# Archives Java
+*.jar
+*.war
+*.ear
+
+# Logs
+*.log
+
+# Fichiers système
+.DS_Store
+Thumbs.db
+
+# Fichiers locaux / config sensibles
+.env
+.env.*
+local.properties
+
+# Fichiers de base de données locaux
+*.db
+*.sqlite
+*.sqlite3
+
+# Azure local
+.azure/
