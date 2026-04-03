@@ -15,7 +15,7 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 - Rachida Toumi
 - Vi Phung
 
----
+
 
 **Technologies utilisées**
 
@@ -24,7 +24,7 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 - JDBC
 - Interface graphique Java
 
----
+
 
 ### Objectifs du projet
 
@@ -47,7 +47,7 @@ Le script SQL implémente concrètement ces tables avec des clés primaires et d
 
 ### Fonctionnalités principales
 
-** 1. Gestion des candidats**
+**1. Gestion des candidats**
 L’application permet :
 - d’afficher les informations des candidats
 - d’insérer un candidat
@@ -66,24 +66,24 @@ L’application permet :
 - de supprimer un village
 - de rechercher un village par identifiant
 
-### 3. Affichage des actions et décisions d’un candidat
+**3. Affichage des actions et décisions d’un candidat**
 L’utilisateur peut saisir l’identifiant d’un candidat afin d’afficher :
 - la description des actions
 - la date des actions et décisions associées
 
-### 4. Affichage des visites planifiées par un candidat
+ **4. Affichage des visites planifiées par un candidat**
 L’application permet d’afficher :
 - la date de visite
 - le nom du village
 - la région
 
-### 5. Calcul du total des dépenses des voyages d’un candidat
+**5. Calcul du total des dépenses des voyages d’un candidat**
 L’utilisateur peut calculer le total des frais associés aux voyages d’un candidat.
 
-### 6. Estimation de l’impact financier total des projets de loi d’une campagne
+**6. Estimation de l’impact financier total des projets de loi d’une campagne**
 L’application permet d’estimer l’impact financier total des projets de loi liés à une campagne donnée.
 
-### 7. Rapport sur le nombre de visites
+**7. Rapport sur le nombre de visites**
 Une section de l’interface permet également d’afficher le nombre de visites effectuées dans un village par un candidat.
 
 ---
