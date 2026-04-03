@@ -149,7 +149,7 @@ Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion 
 
 **Captures d’écran**
 
-Vue d’ensemble de l’application
+**Vue d’ensemble de l’application**
 <img src="figures/image.png" alt="Vue d’ensemble de l’application" width="900">
 
 **Gestion des candidats**
