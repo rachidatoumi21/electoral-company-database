@@ -48,7 +48,7 @@ Le script SQL implémente concrètement ces tables avec des clés primaires et d
 
 ### Fonctionnalités principales
 
-### 1. Gestion des candidats
+ 1. Gestion des candidats
 L’application permet :
 - d’afficher les informations des candidats
 - d’insérer un candidat
@@ -175,7 +175,8 @@ meilleure gestion des erreurs de connexion SQL ;
 amélioration visuelle de l’interface ;
 ajout d’authentification et de rôles ;
 création d’un tableau de bord analytique plus avancé.
-Conclusion
+
+**Conclusion**
 
 Ce projet met en place une solution cohérente pour la gestion d’une campagne électorale, depuis le stockage structuré des données jusqu’à leur exploitation dans une application Java. Le rapport conclut que la base a été conçue pour répondre aux besoins dynamiques d’une campagne politique, en combinant planification des visites, gestion financière et analyse des projets de loi.
 
