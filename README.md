@@ -147,12 +147,12 @@ Ouvrir le projet Java et adapter les paramètres de connexion à la base de donn
 
 Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion et aux requêtes affichées dans les captures.
 
-## Captures d’écran
+**Captures d’écran**
 
-### Vue d’ensemble de l’application
+Vue d’ensemble de l’application
 <img src="screenshots/application-complete.png" alt="Vue d’ensemble de l’application" width="900">
 
-### Gestion des candidats
+**Gestion des candidats**
 <img src="screenshots/candidats.png" alt="Gestion des candidats" width="900">
 
 ### Gestion des villages
