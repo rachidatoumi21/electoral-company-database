@@ -10,15 +10,14 @@ L’application permet notamment de gérer les candidats et les villages, d’af
 
 Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Université de Montréal.
 
-## Auteurs
+**Auteurs**
 
 - Rachida Toumi
 - Vi Phung
 
-
 ---
 
-### Technologies utilisées
+**Technologies utilisées**
 
 - Java
 - SQL Server / T-SQL
@@ -48,7 +47,7 @@ Le script SQL implémente concrètement ces tables avec des clés primaires et d
 
 ### Fonctionnalités principales
 
- 1. Gestion des candidats
+** 1. Gestion des candidats**
 L’application permet :
 - d’afficher les informations des candidats
 - d’insérer un candidat
@@ -59,7 +58,7 @@ L’application permet :
    La capture dédiée montre également les actions CRUD principales : insertion, modification, suppression et recherche par identifiant. Ces attributs correspondent à la table Candidat du script SQL.
 
 
-### 2. Gestion des villages
+**2. Gestion des villages**
 L’application permet :
 - d’afficher les villages
 - d’insérer un village
