@@ -147,29 +147,56 @@ Ouvrir le projet Java et adapter les paramètres de connexion à la base de donn
 
 Compiler puis exécuter l’interface Java pour accéder aux écrans de gestion et aux requêtes affichées dans les captures.
 
-Captures d’écran
+**Captures d’écran**
 Vue d’ensemble de l’application
-![Vue d’ensemble](screenshots/application-complete.png)
-Gestion des candidats
-![Gestion des candidats](screenshots/candidats.png)
-Gestion des villages
-![Gestion des villages](screenshots/villages.png)
-Actions et décisions d’un candidat
-![Actions et décisions](screenshots/actions.png)
-Visites planifiées d’un candidat
-![Visites planifiées](screenshots/visites.png)
-Total des dépenses de voyage
-![Total des dépenses](screenshots/depenses.png)
-Impact financier d’une campagne
-![Impact financier](screenshots/impact-financier.png)
-Points forts du projet
+<p align="center">
+  <img src="./screenshots/application-complete.png" alt="Vue d’ensemble de l’application" width="900">
+</p>
+
+### Gestion des candidats
+
+<p align="center">
+  <img src="./screenshots/candidats.png" alt="Gestion des candidats" width="900">
+</p>
+
+### Gestion des villages
+
+<p align="center">
+  <img src="./screenshots/villages.png" alt="Gestion des villages" width="900">
+</p>
+
+### Actions et décisions d’un candidat
+
+<p align="center">
+  <img src="./screenshots/actions.png" alt="Actions et décisions d’un candidat" width="700">
+</p>
+
+### Visites planifiées d’un candidat
+
+<p align="center">
+  <img src="./screenshots/visites.png" alt="Visites planifiées d’un candidat" width="700">
+</p>
+
+### Total des dépenses de voyage
+
+<p align="center">
+  <img src="./screenshots/depenses.png" alt="Total des dépenses de voyage" width="600">
+</p>
+
+### Impact financier d’une campagne
+
+<p align="center">
+  <img src="./screenshots/impact-financier.png" alt="Impact financier d’une campagne" width="600">
+</p>
+
+**Points forts du projet**
 modélisation d’une base de données relationnelle complète pour un cas réaliste ;
 implémentation de tables liées par des clés étrangères ;
 présence de requêtes simples et complexes pour l’analyse ;
 intégration d’une interface Java avec fonctionnalités CRUD ;
 utilisation de procédures stockées, triggers et curseur pour enrichir la logique de gestion. fileciteturn0file0L29-L57
 
-### Limites et améliorations possibles
+**Limites et améliorations possibles**
 
 Les captures montrent une application fonctionnelle et claire, mais plusieurs améliorations peuvent être envisagées :
 
