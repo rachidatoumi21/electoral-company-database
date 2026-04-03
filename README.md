@@ -86,8 +86,6 @@ L’application permet d’estimer l’impact financier total des projets de loi
 **7. Rapport sur le nombre de visites**
 Une section de l’interface permet également d’afficher le nombre de visites effectuées dans un village par un candidat.
 
----
-
 
 Le projet ne se limite pas aux tables et requêtes de base. Le script T-SQL inclut aussi des mécanismes avancés :
 
@@ -97,7 +95,7 @@ un curseur qui parcourt les visites d’un candidat donné afin d’afficher, li
 
 Ces éléments montrent un projet de base de données plus complet qu’un simple schéma CRUD.
 
-Jeu de données de démonstration
+**Jeu de données de démonstration**
 
 Le script SQL insère des données d’exemple pour les candidats, villages, campagnes, thèmes, actions et décisions, visites, lois, projets de loi, voyages et frais. Cela permet de tester directement l’application et les requêtes sans devoir remplir la base manuellement.
 
@@ -119,6 +117,12 @@ Le script SQL insère des données d’exemple pour les candidats, villages, cam
 │   └── impact-financier.png
 └── README.md
 ```
+**Fichiers principaux**
+- electoral_db.sql : création de la base de données, des tables, des relations et insertion des données
+- T-SQL.sql : procédures stockées, triggers et curseur
+- JavaCrud.java : interface principale de l’application
+- DbConnection.java : connexion à la base de données
+- JavaCrud.form : interface graphique
 
 ### Installation et exécution
 
