@@ -13,7 +13,7 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 
 - Rachida Toumi
 - Vi Phung
--
+
 
 ---
 
@@ -26,7 +26,7 @@ Projet réalisé dans le cadre du cours IFT-2935 – Bases de données à l’Un
 
 ---
 
-## Objectifs du projet
+### Objectifs du projet
 
 Le système a été conçu pour répondre à plusieurs besoins d’une campagne électorale :
 
@@ -43,7 +43,6 @@ Le modèle relationnel présenté dans le rapport comprend les entités principa
 
 Le script SQL implémente concrètement ces tables avec des clés primaires et des clés étrangères. Il crée par exemple les tables Candidat, Campagne, Village, Theme, ActionDecision, Visites, Loi, ProjetDeLoi, LoiModifie, Voyage, VoyageParCandidat et Frais.
 
-Le rapport indique aussi que le schéma respecte les formes normales 1FN, 2FN et 3FN, et conclut que les relations sont en BCNF.
 ---
 
 ## Fonctionnalités principales
